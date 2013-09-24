@@ -15,6 +15,7 @@ module CurrencyWorker
         expected = {
           "EUR" => "0.5000",
           "ZAR" => "5.0000",
+          "USD" => "1.0000",
         }
         expect(converted).to eq(expected)
       end
