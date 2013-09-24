@@ -8,7 +8,7 @@ module CurrencyWorker
 
     def initialize
       @config = Config.instance
-      AWS.config(:credential_provider => AWS::Core::CredentialProviders::EC2Provider.new) 
+      AWS.config(:credential_provider => AWS::Core::CredentialProviders::DefaultProvider.new) 
       @dynamo = AWS::DynamoDB.new(
         :logger => log,
         :region => @config.aws_region)
