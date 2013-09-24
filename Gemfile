@@ -1,0 +1,12 @@
+source 'https://rubygems.org'
+
+gem 'log4r'
+gem 'retries'
+gem 'rest-client'
+gem 'nori'
+gem 'nokogiri'
+gem 'rspec'
+gem 'guard'
+gem 'guard-rspec'
+gem 'aws-sdk'
+gem 'require_all'
