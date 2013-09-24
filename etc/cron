@@ -1,0 +1,1 @@
+0 */6 * * * ec2-user /home/ec2-user/currency-worker/bin/currency-worker.sh
